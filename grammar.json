@@ -1,0 +1,46 @@
+[
+    {
+      "question": "Which sentence is grammatically correct?",
+      "options": [
+        "She don't like coffee",
+        "She doesn't likes coffee",
+        "She doesn't like coffee",
+        "She not like coffee"
+      ],
+      "correctAnswer": "She doesn't like coffee",
+      "category": "Grammar"
+    },
+    {
+      "question": "Choose the correct form of the verb:",
+      "options": [
+        "I have went to the store",
+        "I have gone to the store",
+        "I have goed to the store",
+        "I have going to the store"
+      ],
+      "correctAnswer": "I have gone to the store",
+      "category": "Grammar"
+    },
+    {
+      "question": "Which sentence uses the correct comparative form?",
+      "options": [
+        "This book is more better than that one",
+        "This book is better than that one",
+        "This book is betterer than that one",
+        "This book is the more better than that one"
+      ],
+      "correctAnswer": "This book is better than that one",
+      "category": "Grammar"
+    },
+    {
+      "question": "Identify the correct passive voice form:",
+      "options": [
+        "The cake was baked by me",
+        "The cake baked by me",
+        "The cake is baking by me",
+        "The cake has baked by me"
+      ],
+      "correctAnswer": "The cake was baked by me",
+      "category": "Grammar"
+    }
+  ]

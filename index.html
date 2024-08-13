@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English Learning Quiz</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>English Learning Quiz</h1>
+        <div id="quiz-container">
+            <h2 id="question"></h2>
+            <div id="options"></div>
+            <div id="timer">20</div>
+        </div>
+        <div id="progress-container">
+            <div id="progress-bar">
+                <div id="progress-fill"></div>
+            </div>
+            <p>Question <span id="current-question">1</span> of 15</p>
+        </div>
+        <div id="summary-container" style="display: none;">
+            <h2>Quiz Summary</h2>
+            <p>Your total score: <span id="total-score"></span>/15</p>
+            <div id="category-scores"></div>
+            <div id="recommendation"></div>
+            <button id="restart-btn">Restart Quiz</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

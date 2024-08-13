@@ -1,0 +1,35 @@
+[
+    {
+      "question": "Read the following passage and answer the question:\n\nThe Great Barrier Reef, off the coast of Australia, is the world's largest coral reef system. Stretching for over 2,300 kilometers, it is so vast that it can be seen from outer space. The reef is home to countless species of colorful fish, mollusks, and other marine animals.\n\nWhat is the main idea of this passage?",
+      "options": [
+        "Australia's coastline",
+        "Marine animals in coral reefs",
+        "The size and significance of the Great Barrier Reef",
+        "Viewing Earth from space"
+      ],
+      "correctAnswer": "The size and significance of the Great Barrier Reef",
+      "category": "Reading"
+    },
+    {
+      "question": "Based on the passage, which statement is true?",
+      "options": [
+        "The Great Barrier Reef is located in the Pacific Ocean",
+        "The reef is visible from space",
+        "The reef is 230 kilometers long",
+        "Only fish live in the Great Barrier Reef"
+      ],
+      "correctAnswer": "The reef is visible from space",
+      "category": "Reading"
+    },
+    {
+      "question": "What can be inferred about the Great Barrier Reef's ecosystem?",
+      "options": [
+        "It is a fragile and diverse environment",
+        "It contains only coral and nothing else",
+        "It is easy to explore in its entirety",
+        "It is shrinking rapidly"
+      ],
+      "correctAnswer": "It is a fragile and diverse environment",
+      "category": "Reading"
+    }
+  ]

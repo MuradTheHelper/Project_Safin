@@ -1,0 +1,26 @@
+[
+    {
+      "question": "What is the synonym of 'enormous'?",
+      "options": ["Tiny", "Huge", "Beautiful", "Fast"],
+      "correctAnswer": "Huge",
+      "category": "Vocabulary"
+    },
+    {
+      "question": "Which word means 'to make something better'?",
+      "options": ["Deteriorate", "Worsen", "Improve", "Maintain"],
+      "correctAnswer": "Improve",
+      "category": "Vocabulary"
+    },
+    {
+      "question": "What is the antonym of 'generous'?",
+      "options": ["Kind", "Stingy", "Wealthy", "Charitable"],
+      "correctAnswer": "Stingy",
+      "category": "Vocabulary"
+    },
+    {
+      "question": "Which word describes a person who is 'very skilled at a particular thing'?",
+      "options": ["Amateur", "Novice", "Expert", "Beginner"],
+      "correctAnswer": "Expert",
+      "category": "Vocabulary"
+    }
+  ]
