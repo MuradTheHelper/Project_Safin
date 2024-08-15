@@ -1,26 +1,62 @@
 [
-    {
-      "question": "What is the correct greeting for morning?",
-      "options": ["Good morning", "Good afternoon", "Good evening", "Good night"],
-      "correctAnswer": "Good morning",
-      "category": "Greetings"
-    },
-    {
-      "question": "How would you greet someone you're meeting for the first time in a formal setting?",
-      "options": ["Hey there!", "What's up?", "How do you do?", "See you later!"],
-      "correctAnswer": "How do you do?",
-      "category": "Greetings"
-    },
-    {
-      "question": "Which phrase is used to say goodbye?",
-      "options": ["Welcome", "Nice to meet you", "Take care", "How are you?"],
-      "correctAnswer": "Take care",
-      "category": "Greetings"
-    },
-    {
-      "question": "What's an appropriate response to 'How are you?'",
-      "options": ["Good night", "I'm fine, thank you. And you?", "You're welcome", "See you tomorrow"],
-      "correctAnswer": "I'm fine, thank you. And you?",
-      "category": "Greetings"
-    }
-  ]
+  {
+    "question": "How do you politely decline an invitation in a formal setting?",
+    "options": [
+      "Sorry, I can’t make it.",
+      "I don’t feel like going.",
+      "I regret that I must decline.",
+      "No way I’m coming."
+    ],
+    "correctAnswer": "I regret that I must decline.",
+    "category": "Greetings",
+    "time": 20
+  },
+  {
+    "question": "Which of the following is an appropriate response to 'How do you do?' in a formal context?",
+    "options": [
+      "I’m fine, thank you.",
+      "Nice to meet you.",
+      "I’m doing well.",
+      "How do you do?"
+    ],
+    "correctAnswer": "How do you do?",
+    "category": "Greetings",
+    "time": 20
+  },
+  {
+    "question": "When answering a phone call, what is a formal way to introduce yourself?",
+    "options": [
+      "Hello, this is John.",
+      "Hey, it’s John.",
+      "John speaking.",
+      "What’s up, John?"
+    ],
+    "correctAnswer": "Hello, this is John.",
+    "category": "Greetings",
+    "time": 20
+  },
+  {
+    "question": "Which phrase is appropriate for offering help in a formal setting?",
+    "options": [
+      "Need any help?",
+      "Can I be of assistance?",
+      "Do you want help?",
+      "Let me help you out."
+    ],
+    "correctAnswer": "Can I be of assistance?",
+    "category": "Greetings",
+    "time": 20
+  },
+  {
+    "question": "How should you respond to someone who says 'I’m sorry to hear that' in a formal conversation?",
+    "options": [
+      "Don’t worry about it.",
+      "Thanks for your concern.",
+      "It’s no big deal.",
+      "That’s okay."
+    ],
+    "correctAnswer": "Thanks for your concern.",
+    "category": "Greetings",
+    "time": 20
+  }
+]
