@@ -1,46 +1,62 @@
 [
-    {
-      "question": "Which sentence is grammatically correct?",
-      "options": [
-        "She don't like coffee",
-        "She doesn't likes coffee",
-        "She doesn't like coffee",
-        "She not like coffee"
-      ],
-      "correctAnswer": "She doesn't like coffee",
-      "category": "Grammar"
-    },
-    {
-      "question": "Choose the correct form of the verb:",
-      "options": [
-        "I have went to the store",
-        "I have gone to the store",
-        "I have goed to the store",
-        "I have going to the store"
-      ],
-      "correctAnswer": "I have gone to the store",
-      "category": "Grammar"
-    },
-    {
-      "question": "Which sentence uses the correct comparative form?",
-      "options": [
-        "This book is more better than that one",
-        "This book is better than that one",
-        "This book is betterer than that one",
-        "This book is the more better than that one"
-      ],
-      "correctAnswer": "This book is better than that one",
-      "category": "Grammar"
-    },
-    {
-      "question": "Identify the correct passive voice form:",
-      "options": [
-        "The cake was baked by me",
-        "The cake baked by me",
-        "The cake is baking by me",
-        "The cake has baked by me"
-      ],
-      "correctAnswer": "The cake was baked by me",
-      "category": "Grammar"
-    }
-  ]
+  {
+    "question": "Choose the sentence that is grammatically correct.",
+    "options": [
+      "She don't like going to the gym.",
+      "He doesn't likes playing tennis.",
+      "They doesn't know the answer.",
+      "I don't know the answer."
+    ],
+    "correctAnswer": "I don't know the answer.",
+    "category": "Grammar",
+    "time": 20
+  },
+  {
+    "question": "Identify the correct form of the verb in the following sentence: 'If he _____ earlier, he would have caught the train.'",
+    "options": [
+      "leaves",
+      "left",
+      "has left",
+      "had left"
+    ],
+    "correctAnswer": "had left",
+    "category": "Grammar",
+    "time": 20
+  },
+  {
+    "question": "Select the sentence with the correct use of the subjunctive mood.",
+    "options": [
+      "If I was you, I would reconsider the offer.",
+      "I wish she were here now.",
+      "It is important that he was on time.",
+      "If she would have studied harder, she would have passed."
+    ],
+    "correctAnswer": "I wish she were here now.",
+    "category": "Grammar",
+    "time": 20
+  },
+  {
+    "question": "Which of the following sentences uses a past perfect tense correctly?",
+    "options": [
+      "She had went to the store before the meeting.",
+      "By the time I arrived, they had already left.",
+      "He has finished his homework before dinner.",
+      "They will have seen the movie by tomorrow."
+    ],
+    "correctAnswer": "By the time I arrived, they had already left.",
+    "category": "Grammar",
+    "time": 20
+  },
+  {
+    "question": "Choose the sentence with correct punctuation.",
+    "options": [
+      "She said, 'I will meet you at 5pm'.",
+      "The book, which is on the table, is mine.",
+      "He asked, 'Are you coming to the party'.",
+      "Let's eat Grandma!"
+    ],
+    "correctAnswer": "The book, which is on the table, is mine.",
+    "category": "Grammar",
+    "time": 20
+  }
+]
