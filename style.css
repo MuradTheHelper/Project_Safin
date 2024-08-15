@@ -48,7 +48,21 @@ h1 {
     color: #333;
     margin-bottom: 20px;
     text-align: center;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-align: left;
 }
+
+
+#passage {
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-style: italic;
+    border: 1px solid #ddd;
+}
+
 
 /* Options */
 #options {
@@ -56,6 +70,7 @@ h1 {
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
     margin-bottom: 20px;
+    
 }
 
 .option {
