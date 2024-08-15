@@ -30,7 +30,18 @@ function shuffleArray(array) {
 
 function showQuestion() {
     const question = questions[currentQuestion];
-    document.getElementById('question').textContent = question.question;
+    
+    const passageElement = document.getElementById('passage');
+    const questionElement = document.getElementById('question');
+    
+    if (question.category === "Reading") {
+        passageElement.textContent = question.passage;
+        passageElement.style.display = "block";
+    } else {
+        passageElement.style.display = "none";
+    }
+    
+    questionElement.textContent = question.question;
     
     const optionsContainer = document.getElementById('options');
     optionsContainer.innerHTML = '';
@@ -45,7 +56,24 @@ function showQuestion() {
     
     document.getElementById('current-question').textContent = currentQuestion + 1;
     updateProgressBar();
-    startTimer();
+    
+    // Set timer to 30 seconds for Reading, 20 seconds for other categories
+    const timerDuration = question.category === "Reading" ? 30 : 20;
+    startTimer(timerDuration);
+}
+
+function startTimer(time) {
+    let timeLeft = time;
+    document.getElementById('timer').textContent = timeLeft;
+    clearInterval(timer);
+    timer = setInterval(() => {
+        timeLeft--;
+        document.getElementById('timer').textContent = timeLeft;
+        if (timeLeft === 0) {
+            clearInterval(timer);
+            nextQuestion();
+        }
+    }, 1000);
 }
 
 function selectOption(index) {
@@ -75,18 +103,6 @@ function selectOption(index) {
     setTimeout(nextQuestion, 2000);
 }
 
-function startTimer() {
-    let timeLeft = 20;
-    document.getElementById('timer').textContent = timeLeft;
-    timer = setInterval(() => {
-        timeLeft--;
-        document.getElementById('timer').textContent = timeLeft;
-        if (timeLeft === 0) {
-            clearInterval(timer);
-            nextQuestion();
-        }
-    }, 1000);
-}
 
 function updateProgressBar() {
     const progress = ((currentQuestion + 1) / questions.length) * 100;
