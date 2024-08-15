@@ -1,35 +1,67 @@
 [
-    {
-      "question": "Read the following passage and answer the question:\n\nThe Great Barrier Reef, off the coast of Australia, is the world's largest coral reef system. Stretching for over 2,300 kilometers, it is so vast that it can be seen from outer space. The reef is home to countless species of colorful fish, mollusks, and other marine animals.\n\nWhat is the main idea of this passage?",
-      "options": [
-        "Australia's coastline",
-        "Marine animals in coral reefs",
-        "The size and significance of the Great Barrier Reef",
-        "Viewing Earth from space"
-      ],
-      "correctAnswer": "The size and significance of the Great Barrier Reef",
-      "category": "Reading"
-    },
-    {
-      "question": "Based on the passage, which statement is true?",
-      "options": [
-        "The Great Barrier Reef is located in the Pacific Ocean",
-        "The reef is visible from space",
-        "The reef is 230 kilometers long",
-        "Only fish live in the Great Barrier Reef"
-      ],
-      "correctAnswer": "The reef is visible from space",
-      "category": "Reading"
-    },
-    {
-      "question": "What can be inferred about the Great Barrier Reef's ecosystem?",
-      "options": [
-        "It is a fragile and diverse environment",
-        "It contains only coral and nothing else",
-        "It is easy to explore in its entirety",
-        "It is shrinking rapidly"
-      ],
-      "correctAnswer": "It is a fragile and diverse environment",
-      "category": "Reading"
-    }
-  ]
+  {
+    "passage": "The meteorological phenomenon known as 'El Niño' can significantly impact global weather patterns. During an El Niño event, the central and eastern tropical Pacific Ocean experiences unusually warm ocean temperatures, which can lead to severe weather changes worldwide, such as increased rainfall in some areas and droughts in others.",
+    "question": "What is the primary effect of an El Niño event on global weather patterns?",
+    "options": [
+      "It causes uniform weather changes across the globe.",
+      "It leads to cooler ocean temperatures in the Pacific.",
+      "It results in increased rainfall in all regions.",
+      "It disrupts global weather patterns by altering ocean temperatures."
+    ],
+    "correctAnswer": "It disrupts global weather patterns by altering ocean temperatures.",
+    "category": "Reading",
+    "time": 30
+  },
+  {
+    "passage": "Quantum entanglement is a physical phenomenon that occurs when pairs or groups of particles interact in such a way that the quantum state of each particle cannot be described independently of the state of the others. This phenomenon challenges our classical understanding of particle behavior and has implications for quantum computing and cryptography.",
+    "question": "How does quantum entanglement challenge classical understanding of particle behavior?",
+    "options": [
+      "By allowing particles to act independently.",
+      "By making particle behavior predictable.",
+      "By linking the quantum states of particles in a way that defies classical descriptions.",
+      "By simplifying the interactions between particles."
+    ],
+    "correctAnswer": "By linking the quantum states of particles in a way that defies classical descriptions.",
+    "category": "Reading",
+    "time": 30
+  },
+  {
+    "passage": "In classical economics, the concept of 'utility' refers to the satisfaction or pleasure derived from consuming goods and services. Economists often use utility to explain consumer choice and to model how individuals allocate their resources among various goods and services to maximize their overall satisfaction.",
+    "question": "What role does the concept of 'utility' play in classical economics?",
+    "options": [
+      "It describes the amount of physical resources used in production.",
+      "It helps explain how consumer choices are made to maximize satisfaction.",
+      "It measures the overall cost of producing goods and services.",
+      "It predicts changes in market prices based on supply and demand."
+    ],
+    "correctAnswer": "It helps explain how consumer choices are made to maximize satisfaction.",
+    "category": "Reading",
+    "time": 30
+  },
+  {
+    "passage": "The Pythagorean theorem is a fundamental principle in geometry that establishes the relationship between the sides of a right-angled triangle. It states that the square of the length of the hypotenuse is equal to the sum of the squares of the lengths of the other two sides.",
+    "question": "What does the Pythagorean theorem describe?",
+    "options": [
+      "The area of a triangle.",
+      "The relationship between the sides of a right-angled triangle.",
+      "The sum of the interior angles of a triangle.",
+      "The ratio of the sides of similar triangles."
+    ],
+    "correctAnswer": "The relationship between the sides of a right-angled triangle.",
+    "category": "Reading",
+    "time": 30
+  },
+  {
+    "passage": "The theory of relativity, developed by Albert Einstein, revolutionized the field of physics by introducing the concept that space and time are intertwined in a single continuum. This theory describes how objects in motion experience time and space differently compared to objects at rest.",
+    "question": "What fundamental concept is introduced by Einstein's theory of relativity?",
+    "options": [
+      "The independence of space and time.",
+      "The constant speed of light in a vacuum.",
+      "The integration of space and time into a single continuum.",
+      "The relative nature of gravitational forces."
+    ],
+    "correctAnswer": "The integration of space and time into a single continuum.",
+    "category": "Reading",
+    "time": 30
+  }
+]
