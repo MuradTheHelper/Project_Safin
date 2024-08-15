@@ -1,26 +1,62 @@
 [
-    {
-      "question": "What is the synonym of 'enormous'?",
-      "options": ["Tiny", "Huge", "Beautiful", "Fast"],
-      "correctAnswer": "Huge",
-      "category": "Vocabulary"
-    },
-    {
-      "question": "Which word means 'to make something better'?",
-      "options": ["Deteriorate", "Worsen", "Improve", "Maintain"],
-      "correctAnswer": "Improve",
-      "category": "Vocabulary"
-    },
-    {
-      "question": "What is the antonym of 'generous'?",
-      "options": ["Kind", "Stingy", "Wealthy", "Charitable"],
-      "correctAnswer": "Stingy",
-      "category": "Vocabulary"
-    },
-    {
-      "question": "Which word describes a person who is 'very skilled at a particular thing'?",
-      "options": ["Amateur", "Novice", "Expert", "Beginner"],
-      "correctAnswer": "Expert",
-      "category": "Vocabulary"
-    }
-  ]
+  {
+    "question": "What does the word 'ubiquitous' mean?",
+    "options": [
+      "Rare",
+      "Present everywhere",
+      "Hidden",
+      "Temporary"
+    ],
+    "correctAnswer": "Present everywhere",
+    "category": "Vocabulary",
+    "time": 20
+  },
+  {
+    "question": "Choose the synonym for the word 'mitigate'.",
+    "options": [
+      "Intensify",
+      "Relieve",
+      "Exacerbate",
+      "Ignore"
+    ],
+    "correctAnswer": "Relieve",
+    "category": "Vocabulary",
+    "time": 20
+  },
+  {
+    "question": "What is the meaning of 'cacophony'?",
+    "options": [
+      "A harmonious sound",
+      "A harsh, discordant mixture of sounds",
+      "A type of melody",
+      "A silent pause"
+    ],
+    "correctAnswer": "A harsh, discordant mixture of sounds",
+    "category": "Vocabulary",
+    "time": 20
+  },
+  {
+    "question": "Which word best describes something that is 'ephemeral'?",
+    "options": [
+      "Eternal",
+      "Short-lived",
+      "Obscure",
+      "Complex"
+    ],
+    "correctAnswer": "Short-lived",
+    "category": "Vocabulary",
+    "time": 20
+  },
+  {
+    "question": "What does 'perfunctory' mean?",
+    "options": [
+      "Detailed",
+      "Routine",
+      "Thorough",
+      "Excited"
+    ],
+    "correctAnswer": "Routine",
+    "category": "Vocabulary",
+    "time": 20
+  }
+]
