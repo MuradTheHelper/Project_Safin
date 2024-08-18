@@ -1,62 +1,122 @@
 [
   {
-    "question": "Choose the sentence that is grammatically correct.",
+    "question": "Choose the correct preposition to complete the sentence: 'She lives ___ New York City.'",
     "options": [
-      "She don't like going to the gym.",
-      "He doesn't likes playing tennis.",
-      "They doesn't know the answer.",
-      "I don't know the answer."
+      "in",
+      "at",
+      "on",
+      "by"
     ],
-    "correctAnswer": "I don't know the answer.",
+    "correctAnswer": "in",
     "category": "Grammar",
-    "time": 20
+    "time": 11
   },
   {
-    "question": "Identify the correct form of the verb in the following sentence: 'If he _____ earlier, he would have caught the train.'",
+    "question": "Choose the correct preposition to complete the sentence: 'The meeting is ___ 3 PM.'",
     "options": [
-      "leaves",
-      "left",
-      "has left",
-      "had left"
+      "in",
+      "on",
+      "at",
+      "for"
     ],
-    "correctAnswer": "had left",
+    "correctAnswer": "at",
     "category": "Grammar",
-    "time": 20
+    "time": 11
   },
   {
-    "question": "Select the sentence with the correct use of the subjunctive mood.",
+    "question": "Choose the correct preposition to complete the sentence: 'I left the keys ___ the table.'",
     "options": [
-      "If I was you, I would reconsider the offer.",
-      "I wish she were here now.",
-      "It is important that he was on time.",
-      "If she would have studied harder, she would have passed."
+      "in",
+      "on",
+      "at",
+      "under"
     ],
-    "correctAnswer": "I wish she were here now.",
+    "correctAnswer": "on",
     "category": "Grammar",
-    "time": 20
+    "time": 11
   },
   {
-    "question": "Which of the following sentences uses a past perfect tense correctly?",
+    "question": "Choose the correct preposition to complete the sentence: 'We will meet ___ the bus stop.'",
     "options": [
-      "She had went to the store before the meeting.",
-      "By the time I arrived, they had already left.",
-      "He has finished his homework before dinner.",
-      "They will have seen the movie by tomorrow."
+      "in",
+      "on",
+      "at",
+      "by"
     ],
-    "correctAnswer": "By the time I arrived, they had already left.",
+    "correctAnswer": "at",
     "category": "Grammar",
-    "time": 20
+    "time": 11
   },
   {
-    "question": "Choose the sentence with correct punctuation.",
+    "question": "Choose the correct preposition to complete the sentence: 'My birthday is ___ October 10th.'",
     "options": [
-      "She said, 'I will meet you at 5pm'.",
-      "The book, which is on the table, is mine.",
-      "He asked, 'Are you coming to the party'.",
-      "Let's eat Grandma!"
+      "in",
+      "on",
+      "at",
+      "by"
     ],
-    "correctAnswer": "The book, which is on the table, is mine.",
+    "correctAnswer": "on",
     "category": "Grammar",
-    "time": 20
+    "time": 11
+  },
+  {
+    "question": "Choose the correct preposition to complete the sentence: 'She likes to relax ___ the evening.'",
+    "options": [
+      "in",
+      "on",
+      "at",
+      "by"
+    ],
+    "correctAnswer": "in",
+    "category": "Grammar",
+    "time": 11
+  },
+  {
+    "question": "Choose the correct preposition to complete the sentence: 'He is ___ work right now.'",
+    "options": [
+      "in",
+      "on",
+      "at",
+      "by"
+    ],
+    "correctAnswer": "at",
+    "category": "Grammar",
+    "time": 11
+  },
+  {
+    "question": "Choose the correct preposition to complete the sentence: 'The book is ___ the shelf.'",
+    "options": [
+      "in",
+      "on",
+      "at",
+      "by"
+    ],
+    "correctAnswer": "on",
+    "category": "Grammar",
+    "time": 11
+  },
+  {
+    "question": "Choose the correct preposition to complete the sentence: 'He arrived ___ the airport early.'",
+    "options": [
+      "in",
+      "on",
+      "at",
+      "by"
+    ],
+    "correctAnswer": "at",
+    "category": "Grammar",
+    "time": 11
+  },
+  {
+    "question": "Choose the correct preposition to complete the sentence: 'We will have the party ___ Saturday.'",
+    "options": [
+      "in",
+      "on",
+      "at",
+      "by"
+    ],
+    "correctAnswer": "on",
+    "category": "Grammar",
+    "time": 11
   }
 ]
