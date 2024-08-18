@@ -9,15 +9,65 @@ let categoryScores = {
 };
 let timer;
 
-async function loadQuestions() {
-    const categories = ['grammar', 'vocabulary', 'reading', 'greetings'];
-    for (const category of categories) {
-        const response = await fetch(`${category}.json`);
-        const categoryQuestions = await response.json();
-        questions = questions.concat(categoryQuestions);
+
+// Fungsi baru untuk mengatur proporsi soal
+function setQuestionProportions(totalQuestions, proportions) {
+    const questionCounts = {};
+    let remainingQuestions = totalQuestions;
+
+    // Hitung jumlah soal untuk setiap kategori
+    for (const [category, proportion] of Object.entries(proportions)) {
+        const count = Math.floor(totalQuestions * proportion);
+        questionCounts[category] = count;
+        remainingQuestions -= count;
     }
+
+    // Distribusikan sisa soal (jika ada)
+    const categories = Object.keys(proportions);
+    while (remainingQuestions > 0) {
+        for (const category of categories) {
+            if (remainingQuestions > 0) {
+                questionCounts[category]++;
+                remainingQuestions--;
+            } else {
+                break;
+            }
+        }
+    }
+
+    return questionCounts;
+}
+
+// Modifikasi fungsi loadQuestions
+async function loadQuestions() {
+    const categories = ['Grammar', 'Vocabulary', 'Reading', 'Greetings'];
+    const totalQuestions = 15; // Total jumlah pertanyaan yang diinginkan
+
+    // Tentukan proporsi untuk setiap kategori (total harus 1)
+    const proportions = {
+        Grammar: 0.4,    // 30%
+        Vocabulary: 0.1, // 30%
+        Reading: 0.4,    // 20%
+        Greetings: 0.1   // 20%
+    };
+
+    const questionCounts = setQuestionProportions(totalQuestions, proportions);
+
+    for (const category of categories) {
+        const response = await fetch(`${category.toLowerCase()}.json`);
+        const categoryQuestions = await response.json();
+        
+        // Acak pertanyaan dalam kategori
+        shuffleArray(categoryQuestions);
+        
+        // Ambil jumlah pertanyaan sesuai proporsi
+        const selectedQuestions = categoryQuestions.slice(0, questionCounts[category]);
+        questions = questions.concat(selectedQuestions);
+    }
+
+    // Acak urutan final pertanyaan
     shuffleArray(questions);
-    questions = questions.slice(0, 15); // Limit to 15 questions
+
     showQuestion();
 }
 
@@ -128,19 +178,28 @@ function showSummary() {
     categoryScoresContainer.innerHTML = '';
     
     for (const [category, scores] of Object.entries(categoryScores)) {
-        const categoryScore = document.createElement('p');
-        categoryScore.className = 'category-score';
-        categoryScore.textContent = `${category}: ${scores.correct}/${scores.total}`;
-        categoryScoresContainer.appendChild(categoryScore);
+        if (scores.total > 0) {  // Hanya tampilkan kategori dengan pertanyaan
+            const categoryScore = document.createElement('p');
+            categoryScore.className = 'category-score';
+            categoryScore.textContent = `${category}: ${scores.correct}/${scores.total}`;
+            categoryScoresContainer.appendChild(categoryScore);
+        }
     }
     
     const recommendation = document.getElementById('recommendation');
-    const weakestCategory = Object.entries(categoryScores).reduce((a, b) => 
-        (a[1].correct / a[1].total < b[1].correct / b[1].total) ? a : b
-    )[0];
+    const weakestCategory = Object.entries(categoryScores)
+        .filter(([_, scores]) => scores.total > 0)  // Hanya pertimbangkan kategori dengan pertanyaan
+        .reduce((a, b) => 
+            (a[1].correct / a[1].total < b[1].correct / b[1].total) ? a : b
+        )[0];
     
-    recommendation.textContent = `Based on your performance, we recommend focusing on improving your ${weakestCategory} skills. Keep practicing and you'll see improvement!`;
+    if (weakestCategory) {
+        recommendation.textContent = `Based on your performance, we recommend focusing on improving your ${weakestCategory} skills. Keep practicing and you'll see improvement!`;
+    } else {
+        recommendation.textContent = `Great job on completing the quiz! Keep practicing to improve your overall English skills.`;
+    }
 }
+
 
 function restartQuiz() {
     currentQuestion = 0;
