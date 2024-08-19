@@ -118,5 +118,125 @@
     "correctAnswer": "on",
     "category": "Grammar",
     "time": 11
+  },
+  {
+    "question": "Choose the correct preposition to complete the sentence: 'He has been living ___ the countryside for years.'",
+    "options": [
+      "in",
+      "on",
+      "at",
+      "within"
+    ],
+    "correctAnswer": "in",
+    "category": "Grammar",
+    "time": 11
+  },
+  {
+    "question": "Choose the correct preposition to complete the sentence: 'The professor will arrive ___ the university ___ 9 AM.'",
+    "options": [
+      "at, at",
+      "in, on",
+      "at, on",
+      "in, at"
+    ],
+    "correctAnswer": "at, at",
+    "category": "Grammar",
+    "time": 11
+  },
+  {
+    "question": "Choose the correct preposition to complete the sentence: 'The cat likes to sleep ___ the windowsill every afternoon.'",
+    "options": [
+      "on",
+      "at",
+      "in",
+      "under"
+    ],
+    "correctAnswer": "on",
+    "category": "Grammar",
+    "time": 11
+  },
+  {
+    "question": "Choose the correct preposition to complete the sentence: 'She placed the vase carefully ___ the middle of the table.'",
+    "options": [
+      "in",
+      "on",
+      "at",
+      "over"
+    ],
+    "correctAnswer": "in",
+    "category": "Grammar",
+    "time": 11
+  },
+  {
+    "question": "Choose the correct preposition to complete the sentence: 'The lecture will be held ___ the third floor, ___ Room 305.'",
+    "options": [
+      "on, at",
+      "at, in",
+      "on, in",
+      "in, on"
+    ],
+    "correctAnswer": "on, in",
+    "category": "Grammar",
+    "time": 11
+  },
+  {
+    "question": "Choose the correct preposition to complete the sentence: 'He wrote his name ___ the cover of the book.'",
+    "options": [
+      "on",
+      "at",
+      "in",
+      "above"
+    ],
+    "correctAnswer": "on",
+    "category": "Grammar",
+    "time": 11
+  },
+  {
+    "question": "Choose the correct preposition to complete the sentence: 'We stayed ___ a hotel ___ the edge of the city.'",
+    "options": [
+      "at, at",
+      "in, on",
+      "on, in",
+      "in, at"
+    ],
+    "correctAnswer": "in, on",
+    "category": "Grammar",
+    "time": 11
+  },
+  {
+    "question": "Choose the correct preposition to complete the sentence: 'The meeting will be ___ the same room as last time, ___ 10 AM.'",
+    "options": [
+      "at, at",
+      "in, on",
+      "on, at",
+      "in, at"
+    ],
+    "correctAnswer": "in, at",
+    "category": "Grammar",
+    "time": 11
+  },
+  {
+    "question": "Choose the correct preposition to complete the sentence: 'There was a loud noise coming from somewhere ___ the building.'",
+    "options": [
+      "at",
+      "in",
+      "on",
+      "under"
+    ],
+    "correctAnswer": "in",
+    "category": "Grammar",
+    "time": 11
+  },
+  {
+    "question": "Choose the correct preposition to complete the sentence: 'The car is parked ___ the driveway, right ___ the entrance.'",
+    "options": [
+      "on, at",
+      "at, on",
+      "in, on",
+      "on, in"
+    ],
+    "correctAnswer": "on, at",
+    "category": "Grammar",
+    "time": 11
   }
 ]
