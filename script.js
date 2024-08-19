@@ -45,10 +45,10 @@ async function loadQuestions() {
 
     // Tentukan proporsi untuk setiap kategori (total harus 1)
     const proportions = {
-        Grammar: 0.4,    // 30%
-        Vocabulary: 0.1, // 30%
-        Reading: 0.4,    // 20%
-        Greetings: 0.1   // 20%
+        Grammar: 1,    // 30%
+        Vocabulary: 0, // 30%
+        Reading: 0,    // 20%
+        Greetings: 0   // 20%
     };
 
     const questionCounts = setQuestionProportions(totalQuestions, proportions);
