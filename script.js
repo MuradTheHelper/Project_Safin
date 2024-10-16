@@ -41,7 +41,7 @@ function setQuestionProportions(totalQuestions, proportions) {
 // Modifikasi fungsi loadQuestions
 async function loadQuestions() {
     const categories = ['Grammar', 'Vocabulary', 'Reading', 'Greetings'];
-    const totalQuestions = 15; // Total jumlah pertanyaan yang diinginkan
+    const totalQuestions = 20; // Total jumlah pertanyaan yang diinginkan
 
     // Tentukan proporsi untuk setiap kategori (total harus 1)
     const proportions = {
